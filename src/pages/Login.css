@@ -1,24 +1,5 @@
 /* Login.css */
 
-/* .login-container {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background: #ffd333;
-}
-
-.login-form-container {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  width: 25%;
-  background-color: white;
-  border-radius: 0.75rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem;
-} */
-
-/* Login.css */
-
 /* Container styles */
 .login-container {
   background: #ffd333;
@@ -31,12 +12,12 @@
 .login-form-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  width: 25%;
+  width: 29%;
   background-color: white;
   border-radius: 0.75rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem; /* adjusted for a bit more padding */
+  padding: 1.5rem;
 }
 
 /* Center text styles */

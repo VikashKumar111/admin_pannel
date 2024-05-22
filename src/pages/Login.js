@@ -1,6 +1,6 @@
 import React from "react";
 import CustomInput from "../components/Custominput";
-import "./Login.css"; // Ensure the path is correct
+import "./Login.css"; 
 
 const Login = () => {
   return (
@@ -12,10 +12,10 @@ const Login = () => {
         <p className="text-center">Login to your account to continue</p>
         <form action="">
           <CustomInput type="text" label="Email" id="email" />
-        <CustomInput type="text" label="Password" id="pass" />
-        <button className="login-button" type="submit">
-          Login
-        </button>
+          <CustomInput type="text" label="Password" id="pass" />
+          <button className="login-button" type="submit">
+            Login
+          </button>
         </form>
       </div>
     </div>
