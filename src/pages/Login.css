@@ -1,6 +1,6 @@
 /* Login.css */
 
-.login-container {
+/* .login-container {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background: #ffd333;
@@ -15,4 +15,42 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+} */
+
+/* Login.css */
+
+/* Container styles */
+.login-container {
+  background: #ffd333;
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Form container styles */
+.login-form-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 25%;
+  background-color: white;
+  border-radius: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem; /* adjusted for a bit more padding */
+}
+
+/* Center text styles */
+.text-center {
+  text-align: center;
+}
+
+/* Button styles */
+.login-button {
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  background: #ffd333;
+  cursor: pointer;
 }
