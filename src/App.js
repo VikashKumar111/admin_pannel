@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Resetpassword from './pages/Resetpassword';
@@ -23,3 +22,4 @@ function App() {
 }
 
 export default App;
+
