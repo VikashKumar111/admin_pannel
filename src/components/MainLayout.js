@@ -16,7 +16,7 @@ const MainLayout = () => {
   return (
     <Layout>
       <Sider trigger={null} collapsible collapsed={collapsed}>
-        <div className="demo-logo-vertical" />
+        <div className="logo" />
         <Menu
           theme="dark"
           mode="inline"

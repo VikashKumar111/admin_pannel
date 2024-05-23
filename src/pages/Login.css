@@ -26,12 +26,38 @@
 }
 
 /* Button styles */
+
+.text-container {
+  margin-bottom: 1rem; /* Equivalent to 'mb-3' */
+  text-align: end; /* Equivalent to 'text-end' */
+}
+
+.forgot-password-link {
+  color: inherit; /* Inherit color from parent element or default color */
+  text-decoration: none; /* Remove underline */
+}
+
+.forgot-password-link:hover,
+.forgot-password-link:focus {
+  text-decoration: underline; /* Optionally, add underline on hover or focus */
+}
+
 .login-button {
-  border: none;
-  padding: 0.5rem 1rem;
+  display: inline-block; /* Equivalent to Bootstrap's 'w-100' for block-level element */
+  padding: 10px 15px; /* Equivalent to 'px-3 py-2' */
   color: white;
-  font-weight: bold;
-  width: 100%;
-  background: #ffd333;
-  cursor: pointer;
+  font-weight: bold; /* Equivalent to 'fw-bold' */
+  text-align: center; /* Equivalent to 'text-center' */
+  text-decoration: none; /* Equivalent to 'text-decoration-none' */
+  font-size: 1.25rem; /* Equivalent to 'fs-5' */
+  background-color: #ffd333; /* Custom background color */
+  border: none; /* Equivalent to 'border-0' */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.login-button:hover,
+.login-button:focus {
+  text-decoration: none; /* Prevent text decoration on hover and focus */
+  color: black;
 }

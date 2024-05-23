@@ -9,10 +9,15 @@ const Forgotpassword = () => {
       <br />
       <div className="forgot-form-container">
         <h3 className="text-center">Forgot Password</h3>
-        <p className="text-center">Please Enter your registered Email to get reset password mail</p>
+        <p className="text-center">
+          Please Enter your registered Email to get reset password mail
+        </p>
+        
         <form action="">
           <CustomInput type="email" label="Email Address" id="email" />
-          <button className="forgot-button" type="submit">Send Link</button>
+          <button className="forgot-button" type="submit">
+            Send Link
+          </button>
         </form>
       </div>
     </div>
